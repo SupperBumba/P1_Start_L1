@@ -10,3 +10,8 @@
 #
 # Voorbeelduitvoer:
 # De totale prijs bedraagt 31.65 euro.
+
+Price = 3
+People = int(input("Enter the number of people:"))
+TotalPrice = People * Price
+print("Your total is: $",TotalPrice)
